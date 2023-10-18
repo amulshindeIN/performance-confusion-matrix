@@ -1,11 +1,11 @@
 import numpy as np
 
-def performanceConfusionMatrix(confusion_matrix = [], sel_class = 0, ):
+def performanceConfusionMatrix(confusion_matrix = [], sel_class = 0):
     """
     pass the confusion matrix(cm), and select the desired integer class (class).
     This function will provide TP, FP, FN, and TN values.
     """
-    sel = 2
+    # sel = 2
     sel = sel_class
     cm = confusion_matrix
 
